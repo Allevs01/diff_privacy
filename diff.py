@@ -2,7 +2,7 @@ import opendp.prelude as dp
 import pandas as pd
 import urllib.request
 
-# Abilita le funzionalità contrib
+# enable contrib functionality
 dp.enable_features('contrib')
 
 def main():
