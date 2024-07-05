@@ -8,7 +8,7 @@ dp.enable_features('contrib')
 def main():
     privacy_unit = dp.unit_of(contributions=1)
     input_metric, d_in = privacy_unit
-    #0.01,0.1, 0.5, 0.9
+
     privacy_loss = dp.loss_of(epsilon=1.)
     privacy_measure, d_out = privacy_loss
 
